@@ -2,7 +2,7 @@
   
 ## Description
 
-Generates a custom logo svg file based on user input in the terminal via inquirer.
+Generates a custom logo.SVG file based on user input in the terminal via inquirer.
 
 ## Table of Contents
 
@@ -19,7 +19,9 @@ Runs inside the terminal.
 
 ## Usage
 
-Follow the prompts and enter in the required data. A svg file will then be created to use as a logo.
+Follow the prompts and enter the required data. An SVG file will then be created to use as a logo.
+
+[Example Video](https://youtu.be/SDoxT2cD4x0)
 
 ## Tests
 
@@ -33,7 +35,7 @@ Jake Zook
 
 Feel free to email jakezook01@gmail.com with any questions.
 
-GitHub: github.com/JakeZook/
+[(GitHub: github.com/JakeZook/)]
 
 ## License
 
