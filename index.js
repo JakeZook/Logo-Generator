@@ -5,20 +5,17 @@ const fs = require('fs');
 
 async function init () {
     const data = await getInput();
-    const shapeData = await createObject(data);
-    generateFile(shapeData);
+    const renderData = await createObject(data);
+    generateFile(renderData, data);
 }
 
-function generateFile(shapeData) {
-    const obj = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    ${shapeData}
+function generateFile(renderData, data) {
+    const tag = `<svg version="1.1" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+    ${renderData}
+    </svg>`;
 
-    </svg>
-    `;
-
-
-    fs.writeFile('logo.svg', obj, (err) =>
-    err ? console.error(err) : console.log('Success!')
+    fs.writeFile(`./Assets/${data.shapeType}.svg`, tag, (err) =>
+    err ? console.error(err) : console.log('Success! Generated logo.svg!')
     );
 }
 
