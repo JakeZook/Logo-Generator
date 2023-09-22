@@ -1,0 +1,4 @@
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <rect x="73" y="40" width="150" height="150" fill="yellow" />
+        <text x="150" y="135" font-size="60" text-anchor="middle" fill="purple">FOO</text>
+    </svg>

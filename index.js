@@ -18,7 +18,7 @@ function generateFile(renderData, data) {
     </svg>`;
 
     //Names the file off of the type of shape chosen and writes it into the assets folder
-    fs.writeFile(`./Assets/${data.shapeType}.svg`, tag, (err) =>
+    fs.writeFile(`./examples/${data.shapeType}.svg`, tag, (err) =>
     err ? console.error(err) : console.log('Success! Generated logo.svg!')
     );
 }
