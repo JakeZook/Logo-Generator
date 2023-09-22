@@ -35,7 +35,7 @@ Jake Zook
 
 Feel free to email jakezook01@gmail.com with any questions.
 
-[(GitHub: github.com/JakeZook/)]
+[GitHub: Jake Zook](github.com/JakeZook/)
 
 ## License
 
